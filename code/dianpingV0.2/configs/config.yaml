@@ -1,0 +1,26 @@
+Server:
+  RunMode: debug
+  HttpPort: 30000
+  ReadTimeout: 60
+  WriteTimeout: 60
+log :
+  Filename  : ../dianping.log
+  level : debug
+  MaxSize : 10 #mb
+  MaxBackups :  10 #保留的最大文件个数
+  MaxAge    : 30 #保留的最大天数
+mysql:
+  Username: root   # 填写你的数据库账号
+  Password: 123456 # 填写你的数据库密码
+  Host: 127.0.0.1:3306
+  DBName: dianping
+  MaxIdleConns: 30
+  MaxOpenConns: 100
+Redis:
+  Host: 43.139.27.107:6379
+  Password: wook1847
+  PoolSize: 20
+JWT:
+  Secret: hello
+  Issuer: dianping-service
+  Expire: 7200  #秒
