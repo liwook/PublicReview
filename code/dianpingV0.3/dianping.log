@@ -1,0 +1,1 @@
+{"time":"2024-10-15T11:03:52.9602148+08:00","level":"ERROR","source":{"function":"dianping/internal/shopservice.QueryShopTypeList","file":"D:/code/gWork/new_dianping/dianpingV0.3/internal/shopservice/shopservice.go","line":99},"msg":"redis list push bad","err":"redis: can't marshal []*model.TbShopType (implement encoding.BinaryMarshaler)"}
