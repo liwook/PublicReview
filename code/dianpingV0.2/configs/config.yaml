@@ -17,8 +17,8 @@ mysql:
   MaxIdleConns: 30
   MaxOpenConns: 100
 Redis:
-  Host: 43.139.27.107:6379
-  Password: wook1847
+  Host: 127.0.0.1:6379
+  Password: 123456
   PoolSize: 20
 JWT:
   Secret: hello
