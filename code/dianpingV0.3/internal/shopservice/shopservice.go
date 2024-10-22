@@ -107,7 +107,7 @@ func QueryShopTypeList(c *gin.Context) {
 		for i, v := range val {
 			_ = sonic.UnmarshalString(v, &valList[i])
 		}
-		code.WriteResponse(c, code.ErrSuccess, val[0])
+		code.WriteResponse(c, code.ErrSuccess, valList)
 	}
 }
 
