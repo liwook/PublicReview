@@ -1,0 +1,33 @@
+Server:
+  RunMode: debug
+  HttpPort: 30000
+  ReadTimeout: 60
+  WriteTimeout: 60
+log :
+  Filename  : ../dianping.log
+  level : debug
+  MaxSize : 10 #mb
+  MaxBackups :  10 #保留的最大文件个数
+  MaxAge    : 30 #保留的最大天数
+mysql:
+  Username: root   # 填写你的数据库账号
+  Password: wook1847 # 填写你的数据库密码
+  Host: 43.139.27.107:6789
+  DBName: dianping
+  MaxIdleConns: 30
+  MaxOpenConns: 100
+Redis:
+  Host: 43.139.27.107:5678
+  Password: wook1847
+  PoolSize: 20
+JWT:
+  Secret: hello
+  Issuer: dianping-service
+  Expire: 7200  #秒
+mail:
+  Host: smtp.163.com
+  Port: 25
+  Username: lhjwook123456@163.com
+  Password: HAQVUveNMLyrg4jz  #用于登录第三方邮件客户端的专用密码,是授权码
+  To: 
+  - lhjwook123456@163.com
