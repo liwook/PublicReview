@@ -56,3 +56,42 @@ var codes = map[int]*ErrorMeta{
 	ErrEncodingYaml:      register(http.StatusInternalServerError, "YAML数据无法编码"),
 	ErrDecodingYaml:      register(http.StatusInternalServerError, "YAML数据无法解码"),
 }
+
+type BusinessError struct {
+	Code    int
+	Message string
+	Err     error `json:"-"` //原始错误
+}
+
+// 实现了Error()string，就是了error类型
+func (e *BusinessError) Error() string {
+	return e.Message
+}
+
+func (e *BusinessError) Unwrap() error {
+	return e.Err
+}
+
+func NewBusinessError(code int, customMessage string) *BusinessError {
+	if meta, exists := codes[code]; exists {
+		message := customMessage
+		if message == "" {
+			message = meta.Message
+		}
+		return &BusinessError{
+			Code:    code,
+			Message: message,
+		}
+	}
+	return &BusinessError{
+		Code:    ErrUnknown,
+		Message: "未知错误",
+	}
+}
+
+// WrapBusinessError 包装原始错误
+func WrapBusinessError(code int, originalErr error, customMessage string) *BusinessError {
+	bizErr := NewBusinessError(code, customMessage)
+	bizErr.Err = originalErr
+	return bizErr
+}
