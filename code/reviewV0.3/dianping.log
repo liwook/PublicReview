@@ -1,0 +1,14 @@
+{"time":"2025-06-30T14:22:05.7110178+08:00","level":"INFO","source":{"function":"main.init.0","file":"D:/k/PublicReview/code/reviewV0.2/main.go","line":26},"msg":"config init success"}
+{"time":"2025-06-30T14:26:41.8262201+08:00","level":"INFO","source":{"function":"main.init.0","file":"D:/k/PublicReview/code/reviewV0.2/main.go","line":26},"msg":"config init success"}
+{"time":"2025-06-30T14:27:50.4334009+08:00","level":"INFO","source":{"function":"main.init.0","file":"D:/k/PublicReview/code/reviewV0.2/main.go","line":26},"msg":"config init success"}
+{"time":"2025-06-30T14:28:17.8826169+08:00","level":"INFO","source":{"function":"main.init.0","file":"D:/k/PublicReview/code/reviewV0.2/main.go","line":26},"msg":"config init success"}
+{"time":"2025-06-30T14:29:36.0598897+08:00","level":"INFO","source":{"function":"main.init.0","file":"D:/k/PublicReview/code/reviewV0.2/main.go","line":26},"msg":"config init success"}
+{"time":"2025-07-01T16:23:59.6042799+08:00","level":"INFO","source":{"function":"main.init.0","file":"D:/k/PublicReview/code/reviewV0.3/main.go","line":26},"msg":"config init success"}
+{"time":"2025-07-01T16:33:05.9648217+08:00","level":"ERROR","source":{"function":"review/handler/user.Login","file":"D:/k/PublicReview/code/reviewV0.3/handler/user/login.go","line":76},"msg":"failed to bind login request","err":"Key: 'loginReq.Code' Error:Field validation for 'Code' failed on the 'max' tag"}
+{"time":"2025-07-01T16:36:34.1432706+08:00","level":"INFO","source":{"function":"main.init.0","file":"D:/k/PublicReview/code/reviewV0.3/main.go","line":26},"msg":"config init success"}
+{"time":"2025-07-01T16:43:50.8241038+08:00","level":"ERROR","source":{"function":"review/handler/shopservice.UpdateShop","file":"D:/k/PublicReview/code/reviewV0.3/handler/shopservice/shopservice.go","line":108},"msg":"bindjson bad","err":"invalid character '}' looking for beginning of object key string"}
+{"time":"2025-07-01T16:50:54.0810881+08:00","level":"INFO","source":{"function":"main.init.0","file":"D:/k/PublicReview/code/reviewV0.3/main.go","line":26},"msg":"config init success"}
+{"time":"2025-07-09T15:07:19.2486452+08:00","level":"INFO","source":{"function":"main.init.0","file":"D:/k/PublicReview/code/reviewV0.3/main.go","line":26},"msg":"config init success"}
+{"time":"2025-07-09T15:17:16.1495919+08:00","level":"INFO","source":{"function":"main.init.0","file":"D:/k/PublicReview/code/reviewV0.3/main.go","line":26},"msg":"config init success"}
+{"time":"2025-07-09T16:00:08.8313453+08:00","level":"INFO","source":{"function":"main.init.0","file":"D:/k/PublicReview/code/reviewV0.3/main.go","line":26},"msg":"config init success"}
+{"time":"2025-07-09T16:26:15.2687898+08:00","level":"INFO","source":{"function":"main.init.0","file":"D:/k/PublicReview/code/reviewV0.3/main.go","line":26},"msg":"config init success"}
