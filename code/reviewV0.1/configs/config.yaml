@@ -1,0 +1,18 @@
+Server:
+  RunMode: debug
+  HttpPort: 8080
+  ReadTimeout: 60s #要带上单位
+  WriteTimeout: 60s
+log :
+  Filename  : dianping.log
+  level : DEBUG
+  MaxSize : 10 #mb
+  MaxBackups :  10 #能保留的文件的最多的数量
+  MaxAge    : 30 #保留的最大天数
+mysql:
+  Username: root   # 填写你的数据库账号
+  Password: 123455 # 填写你的数据库密码
+  Host: 127.0.0.1:3306
+  DBName: dianping
+  MaxIdleConns: 30
+  MaxOpenConns: 100

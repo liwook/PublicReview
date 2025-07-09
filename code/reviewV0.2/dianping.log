@@ -1,0 +1,10 @@
+{"time":"2025-06-30T14:22:05.7110178+08:00","level":"INFO","source":{"function":"main.init.0","file":"D:/k/PublicReview/code/reviewV0.2/main.go","line":26},"msg":"config init success"}
+{"time":"2025-06-30T14:26:41.8262201+08:00","level":"INFO","source":{"function":"main.init.0","file":"D:/k/PublicReview/code/reviewV0.2/main.go","line":26},"msg":"config init success"}
+{"time":"2025-06-30T14:27:50.4334009+08:00","level":"INFO","source":{"function":"main.init.0","file":"D:/k/PublicReview/code/reviewV0.2/main.go","line":26},"msg":"config init success"}
+{"time":"2025-06-30T14:28:17.8826169+08:00","level":"INFO","source":{"function":"main.init.0","file":"D:/k/PublicReview/code/reviewV0.2/main.go","line":26},"msg":"config init success"}
+{"time":"2025-06-30T14:29:36.0598897+08:00","level":"INFO","source":{"function":"main.init.0","file":"D:/k/PublicReview/code/reviewV0.2/main.go","line":26},"msg":"config init success"}
+{"time":"2025-07-04T11:23:39.805576+08:00","level":"INFO","source":{"function":"main.init.0","file":"D:/k/PublicReview/code/reviewV0.2/main.go","line":26},"msg":"config init success"}
+{"time":"2025-07-04T11:26:09.1441108+08:00","level":"INFO","source":{"function":"main.init.0","file":"D:/k/PublicReview/code/reviewV0.2/main.go","line":26},"msg":"config init success"}
+{"time":"2025-07-09T15:05:59.7305661+08:00","level":"INFO","source":{"function":"main.init.0","file":"D:/k/PublicReview/code/reviewV0.2/main.go","line":26},"msg":"config init success"}
+{"time":"2025-07-09T15:15:21.0462119+08:00","level":"INFO","source":{"function":"main.init.0","file":"D:/k/PublicReview/code/reviewV0.2/main.go","line":26},"msg":"config init success"}
+{"time":"2025-07-09T15:57:49.7040666+08:00","level":"INFO","source":{"function":"main.init.0","file":"D:/k/PublicReview/code/reviewV0.2/main.go","line":26},"msg":"config init success"}
