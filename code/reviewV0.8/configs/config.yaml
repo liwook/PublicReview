@@ -11,14 +11,14 @@ log :
   MaxAge    : 30 #保留的最大天数
 mysql:
   Username: root   # 填写你的数据库账号
-  Password: wook1847 # 填写你的数据库密码
+  Password: 123456 # 填写你的数据库密码
   Host: 127.0.0.1:3306
   DBName: dianping
   MaxIdleConns: 30
   MaxOpenConns: 100
 redis:
   host: 127.0.0.1:6379
-  password: wook1847
+  password: 123456
   db: 0
   poolSize: 50
 JWT:
